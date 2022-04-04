@@ -1,0 +1,20 @@
+.shopmain {
+    margin: 3em auto 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .shopimg {
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px #cccccc;
+    border-radius: 0.3em;
+    transition: ease-in 0.2s;
+  }
+  
+  .shopimg:hover {
+    background-color: #e7e7e7;
+    border: solid 1px #999099;
+  }

@@ -1,1 +1,39 @@
-<p>product works!</p>
+<div class="productmain">
+  <img class="productimg" src="../../assets/images/large/product1.jpg" alt="" />
+
+  <div class="productform">
+    <p class="productdesc">Product destription</p>
+    <p>Picture of a lovely weevil on a flower stem.</p>
+    <label for="imgsize">Size</label>
+    <select name="imgsize" id="imgsize">
+      <option value="Small">Small</option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+    </select>
+    <label for="imgcolor">Color</label>
+    <select name="imgcolor" id="imgcolor">
+      <option value="pcolor">Color</option>
+      <option value="psepia">Sepia</option>
+      <option value="pbaw">Black & White</option>
+    </select>
+    <div class="qtyprice">
+      <div class="qtyproduct">
+        <a href="#" class="minus_btn"></a>
+        <input
+          type="text"
+          id="quantity"
+          name="quantity"
+          class="txtbox"
+          value="1"
+          min="1"
+        />
+        <a href="#" class="plus_btn"></a>
+      </div>
+      <div class="price">$20.00</div>
+    </div>
+    <div class="productbtn">
+      <button class="addtocart">Add to Cart</button>
+      <a href="../cart.html"> <button class="buynow">Buy Now</button></a>
+    </div>
+  </div>
+</div>
